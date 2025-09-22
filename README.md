@@ -1,35 +1,29 @@
-# Inteligencia Emocional - Modelo RITA
+# Proyecto Interactivo de Inteligencia Emocional – Modelo RITA
 
-Este proyecto interactivo está diseñado para explorar tres pilares de la inteligencia emocional: **Autoconciencia emocional**, **Regulación emocional** y **Empatía**, utilizando el modelo RITA.
+Este proyecto presenta una página web interactiva basada en el modelo RITA, que incluye tres habilidades clave de la inteligencia emocional:
 
-## 🌟 ¿Qué incluye?
+- **Autoconciencia Emocional**
+- **Regulación Emocional**
+- **Empatía**
 
-- `index.html`: Interfaz con botones interactivos para cada variante emocional.
-- `style.css`: Estilo visual con colores suaves y tipografía amigable.
-- `script.js`: Lógica para mostrar contenido dinámico.
-- `catalogo_visual/`: Imágenes representativas de cada variante.
-- `README.md`: Guía completa del proyecto.
+Cada sección incluye imágenes representativas y frases inspiradoras. Puedes interactuar con los botones para explorar cada tema.
 
-## 🧠 Modelo RITA
+## Visualización
 
-**R**: Reconoce tu emoción actual.  
-**I**: Identifica el origen de esa emoción.  
-**T**: Transforma tu perspectiva con una pregunta reflexiva.  
-**A**: Actúa con intención y conciencia.
+Para ver e interactuar con la página web, publica este repositorio en GitHub Pages:
 
-## 📌 Frases motivacionales
+1. Ve a [GitHub](https://github.com/) y crea un nuevo repositorio.
+2. Sube el contenido de este proyecto (descomprime el archivo ZIP).
+3. Ve a **Settings > Pages** dentro del repositorio.
+4. En **Source**, selecciona la rama principal y la carpeta raíz (`/`).
+5. Guarda los cambios.
+6. GitHub generará una URL como:  
+   `https://tu-usuario.github.io/nombre-del-repositorio/`
 
-- Autoconciencia: *“Conocerme es el primer paso para transformarme.”*  
-- Regulación: *“No siempre puedo controlar lo que siento, pero sí cómo respondo.”*  
-- Empatía: *“La empatía abre puertas que el juicio cierra.”*
+## Archivos incluidos
 
-## 🚀 Publicar en GitHub Pages
+- `index.html`: Página principal con botones interactivos.
+- `images/`: Carpeta con imágenes representativas.
+- `README.md`: Este archivo con instrucciones.
 
-1. Crea un repositorio en GitHub.
-2. Sube todos los archivos del proyecto.
-3. Activa GitHub Pages desde la pestaña Settings.
-4. Tu sitio estará disponible en `https://TU_USUARIO.github.io/NOMBRE_DEL_REPOSITORIO/`
-
----
-
-¡Explora, reflexiona y transforma con inteligencia emocional!
+¡Disfruta explorando el modelo RITA de manera interactiva!
