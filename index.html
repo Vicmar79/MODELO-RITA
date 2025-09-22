@@ -2,33 +2,43 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Inteligencia Emocional - Modelo RITA</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Modelo RITA - Inteligencia Emocional</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f0f8ff; }
+        h1 { color: #333; }
+        .section { margin: 20px; }
+        button { padding: 10px 20px; margin: 10px; font-size: 16px; cursor: pointer; }
+        img { max-width: 300px; margin-top: 10px; }
+        #content { margin-top: 20px; }
+    </style>
+    <script>
+        function mostrarContenido(seccion) {
+            let contenido = {
+                autoconciencia: {
+                    texto: "La autoconciencia emocional es la capacidad de reconocer nuestras propias emociones.",
+                    imagen: "images/autoconciencia.png"
+                },
+                regulacion: {
+                    texto: "La regulación emocional nos permite manejar nuestras emociones de forma saludable.",
+                    imagen: "images/regulacion.png"
+                },
+                empatia: {
+                    texto: "La empatía es la habilidad de comprender y compartir los sentimientos de los demás.",
+                    imagen: "images/empatia.png"
+                }
+            };
+            let data = contenido[seccion];
+            document.getElementById("content").innerHTML = `<p>${data.texto}</p><img src="${data.imagen}" alt="${seccion}">`;
+        }
+    </script>
 </head>
 <body>
-    <h1>Inteligencia Emocional - Modelo RITA</h1>
-    <div class="buttons">
-        <button onclick="mostrar('autoconciencia')">Autoconciencia</button>
-        <button onclick="mostrar('regulacion')">Regulación emocional</button>
-        <button onclick="mostrar('empatia')">Empatía</button>
+    <h1>Proyecto Interactivo: Modelo RITA</h1>
+    <div class="section">
+        <button onclick="mostrarContenido('autoconciencia')">Autoconciencia Emocional</button>
+        <button onclick="mostrarContenido('regulacion')">Regulación Emocional</button>
+        <button onclick="mostrarContenido('empatia')">Empatía</button>
     </div>
-    <div id="contenido">
-        <div id="autoconciencia" class="seccion">
-            <img src="catalogo_visual/autoconciencia.jpg" alt="Autoconciencia emocional">
-            <p>Reconoce lo que sientes, comprende su origen y cómo influye en tu comportamiento.</p>
-            <blockquote>“Conocerme es el primer paso para transformarme.”</blockquote>
-        </div>
-        <div id="regulacion" class="seccion">
-            <img src="catalogo_visual/regulacion.jpg" alt="Regulación emocional">
-            <p>Aprende a gestionar tus emociones con técnicas como respiración, reencuadre y escritura.</p>
-            <blockquote>“No siempre puedo controlar lo que siento, pero sí cómo respondo.”</blockquote>
-        </div>
-        <div id="empatia" class="seccion">
-            <img src="catalogo_visual/empatia.jpg" alt="Empatía">
-            <p>Conecta con los demás desde la comprensión emocional y la escucha activa.</p>
-            <blockquote>“La empatía abre puertas que el juicio cierra.”</blockquote>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <div id="content"></div>
 </body>
 </html>
