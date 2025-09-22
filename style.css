@@ -1,0 +1,27 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.seccion {
+    display: none;
+    margin-top: 20px;
+}
+.seccion img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
